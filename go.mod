@@ -1,6 +1,7 @@
 go 1.19
 
 retract (
+	v7.2.0-lsm // outdated
 	v7.1.0 // contains ledger transaction signing bug
 	v7.0.1 // contains ledger transaction signing bug
 	v7.0.0 // contains huckleberry vulnerability
@@ -173,7 +174,7 @@ require (
 )
 
 replace (
-	cosmossdk.io/simapp => github.com/persistenceOne/cosmos-sdk/simapp v0.47.3-lsm2
-	github.com/cosmos/cosmos-sdk => github.com/persistenceOne/cosmos-sdk v0.47.3-lsm2
+	cosmossdk.io/simapp => github.com/persistenceOne/cosmos-sdk/simapp v0.47.3-lsm3
+	github.com/cosmos/cosmos-sdk => github.com/persistenceOne/cosmos-sdk v0.47.3-lsm3
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 )
