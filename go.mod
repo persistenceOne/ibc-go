@@ -13,7 +13,7 @@ module github.com/cosmos/ibc-go/v7
 require (
 	cosmossdk.io/api v0.3.1
 	cosmossdk.io/errors v1.0.0-beta.7
-	cosmossdk.io/math v1.0.1
+	cosmossdk.io/math v1.4.0
 	cosmossdk.io/tools/rosetta v0.2.1
 	github.com/armon/go-metrics v0.4.1
 	github.com/cometbft/cometbft v0.37.2
@@ -29,7 +29,7 @@ require (
 	github.com/spf13/cast v1.5.1
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/viper v1.16.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
 	google.golang.org/grpc v1.55.0
 	google.golang.org/protobuf v1.30.0
@@ -171,7 +171,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	nhooyr.io/websocket v1.8.6 // indirect
 	pgregory.net/rapid v0.5.5 // indirect
-	sigs.k8s.io/yaml v1.3.0 // indirect
+	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
 replace (
